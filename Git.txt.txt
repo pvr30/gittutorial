@@ -1,0 +1,47 @@
+
+--- Some Basic Linux command
+   - ls
+   - mkdir
+   - cd 
+   - clear
+
+
+--- Initialize git in a folder
+   - git init
+   - ls -a :- show hidden folder
+   - ls .git :- show what files in a folder
+
+---- add files 
+    - touch file_name :- make new file
+    - git status :- see changes or history
+    - git add file_name : add the file in git status
+    - git add . : add everything
+    - git commit -m "message" :- commit with message
+    - git restore --staged <file>:- to unstage
+
+    - git log :- see the history of commits
+    - rm -rf file_name :- delete the file
+    
+    - git reset <hash id of commit> := removing a commit from a history of a project
+
+
+    - git stash :- put the unnessesary filea at backstaged adn whenever we required we can access them
+
+    - git stash pop - get all files from backstage
+
+    - git stash clear - clear or deleted all the changes and files from backstage
+
+
+
+    - Make repo on Github
+
+	- git remote add origin <url>
+	- git remote -v : - see the origins
+	- git push -u origin <branchname>  - push code on repo
+
+
+   --- Branches
+	
+	- git branch <branch_name> : creating a new branch
+	- git checkout <branch_name>: going or working on the new branch
+	- git merge <branch_name>
