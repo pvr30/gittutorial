@@ -45,3 +45,6 @@
 	- git branch <branch_name> : creating a new branch
 	- git checkout <branch_name>: going or working on the new branch
 	- git merge <branch_name>
+	
+--- to delete a existing git repo from folder
+	- rm -rf .git
