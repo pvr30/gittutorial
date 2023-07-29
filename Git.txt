@@ -48,3 +48,6 @@
 	
 --- to delete a existing git repo from folder
 	- rm -rf .git
+
+
+change for set credentials
